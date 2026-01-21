@@ -507,12 +507,7 @@ background-size: cover;
 .art__img{ height: 220px; }
 .art figcaption{ padding: 12px 14px; font-size: 12px; color: var(--muted); }
 
-.art__img--garden{
-  background:
-    radial-gradient(800px 400px at 20% 30%, rgba(255,255,255,.18), transparent 60%),
-    linear-gradient(135deg, #ffb7d8, #ff6d6d 45%, #49d0b0);
-  position:relative;
-}
+
 .art__img--garden::before{
   content:"";
   position:absolute;
@@ -530,12 +525,7 @@ background-size: cover;
   background: rgba(0,0,0,.10);
 }
 
-.art__img--temple{
-  background:
-    radial-gradient(800px 400px at 60% 20%, rgba(255,255,255,.20), transparent 58%),
-    linear-gradient(135deg, #b9ffd8, #7cc3ff 50%, #ffb36d);
-  position:relative;
-}
+
 .art__img--temple::before{
   content:"";
   position:absolute;
