@@ -1,4 +1,12 @@
 /* ====== Base ====== */
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+
+
+
 :root{
   --bg:#ffffff;
   --ink:#141414;
@@ -13,8 +21,7 @@
   --hero3:#7a66ff;
   --accent:#ff7a00;
   --focus: 0 0 0 4px rgba(79,73,255,.25);
-  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", Arial, sans-serif;
+
 }
 
 a{color: #333333;}
